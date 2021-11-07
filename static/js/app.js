@@ -5,15 +5,22 @@ const tableData= data;
 var tbody= d3.select("tbody");
 
 // Creating the table
-// Use code to clear existing data (fresh table)
-function buildTable(data){
-  tbody.htm("");            //this points JS to the table in the HTML page (use empty string)
-  data.forEach((dataRow) => {
-      let row= tbody.append("tr"); //when the tdbodyl tag is found, add a table row
-      Object.values(dataRow).forEach((val)=>{ //reference 1 object/row from array
-      let cell= row.append("td"); // append data into table data
-      cell.text(val); //each cell holds value from object
-      }  
-    );
-  });
-}
+function buildTable(data) {
+    // First, clear out any existing data
+    tbody.html("");
+  
+    // Next, loop through each object in the data
+    // and append a row and cells for each value in the row
+    data.forEach((dataRow) => {
+      // Append a row to the table body
+      let row = tbody.append("tr");
+  
+      // Loop through each field in the dataRow and add
+      // each value as a table cell (td)
+      Object.values(dataRow).forEach((val) => {
+        let cell = row.append("td");
+        cell.text(val);
+        }
+      );
+    });
+  }
