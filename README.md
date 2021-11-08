@@ -10,7 +10,9 @@
 
 ### Software
 
- *
+ * JavaScript
+ * HTML/CSS
+ * Bootstrap
 
 ## RESULTS & DEMO 
 
