@@ -34,10 +34,11 @@ As seen in the video above, the webpage is able to accept user inputs, and will 
 
 ***Case Sensitivity***
 
-
+![alt_text](https://github.com/farwaali08/UFOs/blob/ab0470518c07c3a590038b0570c944896b43ece6/static/images/case_sensitive.png)
 
 
 
 ***Data Quality***
 
+![alt_text](https://github.com/farwaali08/UFOs/blob/ab0470518c07c3a590038b0570c944896b43ece6/static/images/needs_parsing.png)
 
