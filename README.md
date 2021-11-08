@@ -29,4 +29,10 @@ https://user-images.githubusercontent.com/89050277/140669068-9789972b-ec8a-45a7-
 
 ***Case Sensitivity***
 
+
 ![alt_text](https://github.com/farwaali08/UFOs/blob/d43797956a76080d9b1f2cecb075e1ea8b67a462/static/images/case_sensitive.png)
+
+
+***Data Quality***
+
+![alt_text](https://github.com/farwaali08/UFOs/blob/2158c01521d04b8505ca80c2cca0cb360e3d16a0/static/images/needs_parsing.png)
