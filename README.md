@@ -2,6 +2,10 @@
 
 ## OVERVIEW
 
+This project features a dynamic webpage, which was built to display data regarding UFO sightings. The data was received formatted as a JavaScript (JS) array, and so, JS was used to add data to the website in the desired format. The display and aesthetics were modified using HTML/CSS and Bootstrap.
+
+The end product is a dynamic table that accepts user inputs, and adjusts the display accordingly.
+
 ## TOOLS, RESOURCES, & QUICK LINKS
 
 ### Data
@@ -16,9 +20,9 @@
 
 ## RESULTS & DEMO 
 
-The web page can be accessed by clicking [here](https://farwaali08.github.io/UFOs/). Alternatively, a demo is available for view below.
+The webpage can be accessed by clicking [here](https://farwaali08.github.io/UFOs/). The video below will demonstrate how to navigate the webpage, and filter using different search criteria.
 
 ### DEMO
 https://user-images.githubusercontent.com/89050277/140669068-9789972b-ec8a-45a7-80de-ea9617a8e921.mov
 
-## SUMMARY
+## ANALYSIS & SUMMARY
