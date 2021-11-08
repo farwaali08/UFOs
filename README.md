@@ -27,6 +27,8 @@ https://user-images.githubusercontent.com/89050277/140669068-9789972b-ec8a-45a7-
 
 ## ANALYSIS & SUMMARY
 
+As seen in the video above, the webpage is able to accept user inputs, and will filter and display the results accordingly.
+
 ***Case Sensitivity***
 
 
