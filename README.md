@@ -48,11 +48,13 @@ For this reason, the webpage would benefit from a drop-down menu, as it would pr
 The data is not maintained in a consistent format, as illustrated in the "Duration" column above, which can also hinder the filtering functionality. This can be improved by the following:
 
 * Parsing the data so that each column follows a consistent format
-* Updating the code to filter for partial matches
-* 
+* Updating the code to filter for partial matches, OR
+* Creating a drop-down menu
 
 ### ADDITIONAL RECOMMENDATIONS
 
-* Add "Clear Search" button
-* Add filter for date range 
+* Add "Clear Search" or "New Search" button to reset the search parameters  
+* Add filter for date range
+* Add date picker
+    *  
 * Create form for users to submit information on additional sightings
