@@ -37,7 +37,7 @@ As seen in the video above, the webpage is able to accept user inputs, and will 
 ![alt_text](https://github.com/farwaali08/UFOs/blob/ab0470518c07c3a590038b0570c944896b43ece6/static/images/case_sensitive.png)
 
 
-In order to yield results, the search criteria must be an exact match to data in the table, which may not not always be intuitive, and will not produce accurate results. As seen in the image above, entering "CA" instead of "ca", will not produce the same results, despite the fact that both represent "California". Essentially, the user must know exactly what they're looking for, which limits the utility of a search/filter function.
+In order to yield results, the search criteria must be an exact match to data in the table, which may not always be intuitive, and will not produce accurate results. As seen in the image above, entering "CA" instead of "ca", results in different outcomes, despite the fact that both represent "California". Essentially, the user must know exactly what they're looking for, which limits the utility of a search/filter function.
 
 For this reason, the webpage would benefit from a drop-down menu, as it would provide the user with all available options. This is also important when considering the next point:
 
@@ -45,6 +45,14 @@ For this reason, the webpage would benefit from a drop-down menu, as it would pr
 
 ![alt_text](https://github.com/farwaali08/UFOs/blob/ab0470518c07c3a590038b0570c944896b43ece6/static/images/needs_parsing.png)
 
-The data available is not presented in a consistent format, which can also hinder the filtering functionality. As seen in the image above, the "Duration" column has various format
+The data is not maintained in a consistent format, as illustrated in the "Duration" column above, which can also hinder the filtering functionality. This can be improved by the following:
+
+* Parsing the data so that each column follows a consistent format
+* Updating the code to filter for partial matches
+* 
 
 ### ADDITIONAL RECOMMENDATIONS
+
+* Add "Clear Search" button
+* Add filter for date range 
+* Create form for users to submit information on additional sightings
