@@ -2,9 +2,9 @@
 
 ## OVERVIEW
 
-This project features a dynamic webpage, which was built to display data regarding UFO sightings. JavaScript (JS) was used to add the data to the website to accommodate the desired format. The display and aesthetics were modified using HTML/CSS and Bootstrap.
+This project features a dynamic webpage, which was built to display data regarding UFO sightings. The webpage was built using JavaScript (JS), and the display was modified using HTML/CSS and Bootstrap.
 
-The end product is a dynamic table that accepts user inputs, and adjusts the display accordingly.
+The end product includes a webform to accept user inputs, which will adjust the display according to the user's specifications.
 
 ## TOOLS, RESOURCES, & QUICK LINKS
 
@@ -30,14 +30,31 @@ https://user-images.githubusercontent.com/89050277/140686974-5d1fba48-5a35-4c5b-
 
 ## ANALYSIS & SUMMARY
 
-As seen in the video above, the webpage is able to accept user inputs, and will filter and display the results accordingly.
+As seen in the video above, the webpage is able to accept user inputs, and will filter and display the results accordingly, however there are limitations with this design that may contribute to a poor user experience. Two critical limitations are summarized below:
 
-***Case Sensitivity***
+***Case Sensitivity and Matching***
+
+![alt_text](https://github.com/farwaali08/UFOs/blob/ab0470518c07c3a590038b0570c944896b43ece6/static/images/case_sensitive.png)
 
 
+In order to yield results, the search criteria must be an exact match to data in the table, which may not always be intuitive, and will not produce accurate results. As seen in the image above, entering "CA" instead of "ca", results in different outcomes, despite the fact that both represent "California". Essentially, the user must know exactly what they're looking for, which limits the utility of a search/filter function.
 
-
+For this reason, the webpage would benefit from a drop-down menu, as it would provide the user with all available options. This is also important when considering the next point:
 
 ***Data Quality***
 
+![alt_text](https://github.com/farwaali08/UFOs/blob/ab0470518c07c3a590038b0570c944896b43ece6/static/images/needs_parsing.png)
 
+The data is not maintained in a consistent format, as illustrated in the "Duration" column above, which can also hinder the filtering functionality. This can be improved by the following:
+
+* Parsing the data so that each column follows a consistent format
+* Updating the code to filter for partial matches, OR
+* Creating a drop-down menu
+
+### ADDITIONAL RECOMMENDATIONS
+
+* Add "Clear Search" or "New Search" button to reset the search parameters  
+* Add filter for date range
+* Add date picker
+    *  
+* Create form for users to submit information on additional sightings
