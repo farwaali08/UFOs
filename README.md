@@ -1,4 +1,4 @@
-# UFOs
+# UFOs :alien:
 
 ## OVERVIEW
 
@@ -59,6 +59,6 @@ The data is not maintained in a consistent format, as illustrated in the "Durati
        
  ![alt_text](https://github.com/farwaali08/UFOs/blob/684a9ed6e7098b886718fc073d10c7994d966533/static/images/example_date.png)
  
- [Source](https://formden.com/blog/date-picker)
+   >[Source](https://formden.com/blog/date-picker)
              
 * Create form for users to submit information on additional sightings
