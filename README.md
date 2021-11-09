@@ -2,9 +2,9 @@
 
 ## OVERVIEW
 
-This project features a dynamic webpage, which was built to display data regarding UFO sightings. JavaScript (JS) was used to add the data to the website to accommodate the desired format. The display and aesthetics were modified using HTML/CSS and Bootstrap.
+This project features a dynamic webpage, which was built to display data regarding UFO sightings. The webpage was built using JavaScript (JS), and the display was modified using HTML/CSS and Bootstrap.
 
-The end product is a dynamic table that accepts user inputs, and adjusts the display accordingly.
+The end product includes a webform to accept user inputs, which will adjust the display according to the user's specifications.
 
 ## TOOLS, RESOURCES, & QUICK LINKS
 
@@ -30,13 +30,14 @@ https://user-images.githubusercontent.com/89050277/140686974-5d1fba48-5a35-4c5b-
 
 ## ANALYSIS & SUMMARY
 
-As seen in the video above, the webpage is able to accept user inputs, and will filter and display the results accordingly.
+As seen in the video above, the webpage is able to accept user inputs, and will filter and display the results accordingly, however there are limitations with this design that may contribute to a poor user experience. The two critical limitations are summarized below:
 
 ***Case Sensitivity***
 
 ![alt_text](https://github.com/farwaali08/UFOs/blob/ab0470518c07c3a590038b0570c944896b43ece6/static/images/case_sensitive.png)
 
 
+In order to yield results, the search criteria must be an exact match to data in the table, which may not not always be intuitive. As seen in the image above, if the user enters "CA"The webpapge would benefit from a drop-down menu 
 
 ***Data Quality***
 
