@@ -4,7 +4,7 @@
 
 This project features a dynamic webpage, which was built to display data regarding UFO sightings. The webpage was built using JavaScript (JS), and the display was modified using HTML/CSS and Bootstrap.
 
-The end product includes a webform to accept user inputs, which will adjust the display according to the user's specifications.
+The end product includes a webform that accepts user inputs, and adjusts the display according to the user's specifications.
 
 ## TOOLS, RESOURCES, & QUICK LINKS
 
