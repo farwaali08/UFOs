@@ -30,14 +30,16 @@ https://user-images.githubusercontent.com/89050277/140686974-5d1fba48-5a35-4c5b-
 
 ## ANALYSIS & SUMMARY
 
-As seen in the video above, the webpage is able to accept user inputs, and will filter and display the results accordingly, however there are limitations with this design that may contribute to a poor user experience. The two critical limitations are summarized below:
+As seen in the video above, the webpage is able to accept user inputs, and will filter and display the results accordingly, however there are limitations with this design that may contribute to a poor user experience. Two critical limitations are summarized below:
 
 ***Case Sensitivity***
 
 ![alt_text](https://github.com/farwaali08/UFOs/blob/ab0470518c07c3a590038b0570c944896b43ece6/static/images/case_sensitive.png)
 
 
-In order to yield results, the search criteria must be an exact match to data in the table, which may not not always be intuitive. As seen in the image above, if the user enters "CA"The webpapge would benefit from a drop-down menu 
+In order to yield results, the search criteria must be an exact match to data in the table, which may not not always be intuitive, and will not produce accurate results. As seen in the image above, if the user enters "CA" instead of "ca", 
+
+The webpapge would benefit from a drop-down menu 
 
 ***Data Quality***
 
